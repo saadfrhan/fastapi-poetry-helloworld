@@ -1,0 +1,23 @@
+# Ignore devcontainer configuration
+.devcontainer/
+
+# Ignore GitHub configuration
+.github/
+
+# Ignore compiled bytecode
+**/__pycache__/
+**/*.py[cod]
+
+# Ignore .gitignore file
+.gitignore
+
+# Ignore README file
+README.md
+
+# Ignore poetry lock file if not needed
+poetry.lock
+
+# Other potential ignores
+.DS_Store
+.vscode/
+.idea/
