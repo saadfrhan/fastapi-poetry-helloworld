@@ -21,6 +21,7 @@ This project supports the following features:
 - **ReDoc**: An OpenAPI/Swagger-generated API Reference Documentation that makes your API documentation more interactive and user-friendly.
 - **Docker**: A platform for developing, shipping, and running applications in containers that allows you to package your application with all of its dependencies into a standardized unit for software development.
 - **Dev Containers**: A feature of Visual Studio Code that allows you to develop your project in a container-based environment, ensuring that you have all the necessary tools and dependencies to work on the project.
+- **Docker Compose**: A tool for defining and running multi-container Docker applications that allows you to run multiple containers as a single service.
 
 ## Installation
 
@@ -64,12 +65,22 @@ poetry run pytest -v
 poetry run start
 ```
 
-8. You're all set! 🎉 The API should now be running locally at `http://127.0.0.1:8000`.
+8. You're all set! 🎉 The API should now be running locally at `http://localhost:8000`.
 
 ## Documentation
 
-- Access the Swagger UI documentation: [http://127.0.0.1:8000/documentation](http://127.0.0.1:8000/documentation)
-- Access the ReDoc documentation: [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc)
+- Access the Swagger UI documentation: [http://localhost:8000/documentation](http://localhost:8000/documentation)
+- Access the ReDoc documentation: [http://localhost:8000/redoc](http://localhost:8000/redoc)
+
+## Docker Compose
+
+1. Build and run the Docker container using Docker Compose:
+
+```bash
+docker-compose up -d
+```
+
+2. You're all set! 🎉 The API should now be running in a Docker container at `http://localhost:8000`.
 
 ## Docker
 
@@ -85,7 +96,7 @@ docker build -t greeting-api .
 docker run -d -p 8000:8000 greeting-api
 ```
 
-3. You're all set! 🎉 The API should now be running in a Docker container at `http://
+3. You're all set! 🎉 The API should now be running in a Docker container at `http://localhost:8000`.
 
 ## Dev Containers
 
@@ -99,9 +110,9 @@ docker run -d -p 8000:8000 greeting-api
 
 Once the API is running, you can interact with it using your preferred API client or web browser. Here are some example requests:
 
-- Visit `http://127.0.0.1:8000/` to see the Greeting welcome message.
-- Visit `http://127.0.0.1:8000/morning` to receive a cheerful morning greeting.
-- Visit `http://127.0.0.1:8000/night` to receive a soothing night-time message.
+- Visit `http://localhost:8000/` to see the Greeting welcome message.
+- Visit `http://localhost:8000/morning` to receive a cheerful morning greeting.
+- Visit `http://localhost:8000/night` to receive a soothing night-time message.
 
 Feel free to explore and enjoy the friendliness of this API! If you have any questions or feedback, don't hesitate to reach out.
 
