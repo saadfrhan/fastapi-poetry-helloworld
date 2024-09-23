@@ -1,3 +1,7 @@
+### Todo
+
+- [ ] Add db endpoints
+
 # FastAPI Poetry Hello World
 
 This is a simple Hello World API built with FastAPI and Poetry. It also features Docker, Docker Compose, and Dev Containers for easy development and deployment.
