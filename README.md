@@ -1,27 +1,6 @@
-# Greeting API
+# FastAPI Poetry Hello World
 
-Welcome to the Greeting API! This is a simple FastAPI (with Poetry) project that offers a friendly greeting message. The API has three endpoints: a homepage greeting, a morning greeting, and a night-time message.
-
-## Description
-
-This API offers three endpoints:
-
-1. `/`: A Greeting welcome message to greet you when you visit the homepage.
-2. `/morning`: A cheerful morning greeting to start your day with positivity.
-3. `/night`: A soothing night-time message to wish you sweet dreams.
-
-## Features
-
-This project supports the following features:
-
-- **FastAPI**: A modern, fast (high-performance), web framework for building APIs with Python 3.7+ based on standard Python type hints.
-- **Poetry**: A dependency management and packaging tool that helps you declare, manage, and install dependencies of Python projects.
-- **Pytest**: A testing framework that makes it easy to write simple tests to validate the correctness of your code.
-- **Swagger UI**: An interactive API documentation that helps you design, build, document, and consume your RESTful APIs.
-- **ReDoc**: An OpenAPI/Swagger-generated API Reference Documentation that makes your API documentation more interactive and user-friendly.
-- **Docker**: A platform for developing, shipping, and running applications in containers that allows you to package your application with all of its dependencies into a standardized unit for software development.
-- **Dev Containers**: A feature of Visual Studio Code that allows you to develop your project in a container-based environment, ensuring that you have all the necessary tools and dependencies to work on the project.
-- **Docker Compose**: A tool for defining and running multi-container Docker applications that allows you to run multiple containers as a single service.
+This is a simple Hello World API built with FastAPI and Poetry. It also features Docker, Docker Compose, and Dev Containers for easy development and deployment.
 
 ## Installation
 
